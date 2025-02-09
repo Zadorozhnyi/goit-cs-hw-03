@@ -54,7 +54,7 @@ def seed_database():
     conn.commit()
     cursor.close()
     conn.close()
-    print("База даних успішно заповнена!")
+    print("База даних успішно заповнена випадковими даними.")
 
 if __name__ == "__main__":
     seed_database()
